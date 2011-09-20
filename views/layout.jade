@@ -1,0 +1,17 @@
+!!!
+html
+  head
+    title realtime-counter
+    link(rel="stylesheet", href="/stylesheets/style.css")
+    script(type="text/javascript", src="/javascripts/jquery-1.6.4.min.js")
+    script(type="text/javascript", src="/counter.js")
+  body
+    div#header
+      - if (session.user)
+        span hi, #{session.user.name}.&nbsp;
+        a(href="/signout") signout
+      - else
+        a(href="/signin") signin
+    h1
+      a(href="/") realtime-counter
+    div#body!= body

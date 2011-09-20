@@ -1,0 +1,23 @@
+body {
+    padding: 30px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+h1 a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+pre {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+code {
+    font-family: Courier;
+}

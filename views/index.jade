@@ -1,0 +1,9 @@
+script(type="text/javascript")
+  $(function () {
+    new RealtimeCounter('4e78ad55cfd3e27b424dc219').onIncrement(function (count) {
+      $('#count').text(count);
+    });
+  });
+h2 count:&nbsp;
+  span#count
+a(href="/mypage") mypage

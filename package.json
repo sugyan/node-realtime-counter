@@ -1,0 +1,16 @@
+{
+    "name": "realtime-counter",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "connect-redis": ">=1.0.7",
+        "express": "2.4.6",
+        "jade": ">= 0.15.4",
+        "mongodb": ">=0.9.6",
+        "oauth": ">=0.9.5",
+        "socket.io": ">=0.8.4"
+    }
+}
